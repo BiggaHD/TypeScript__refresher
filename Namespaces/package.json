@@ -1,0 +1,22 @@
+{
+  "name": "drop-tasks",
+  "version": "1.0.0",
+  "description": "Simple prototypes created for the purpose of refreshing existing TS skills and to be used as a source of reference.",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [
+    "typescript",
+    "namespaces",
+    "code-spliting"
+  ],
+  "author": {
+    "name": "Dzenis H.",
+    "url": "https://dzenis-h.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

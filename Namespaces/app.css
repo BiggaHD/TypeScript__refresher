@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  font: inherit;
+  padding: 0.2rem 0.4rem;
+  width: 100%;
+  max-width: 30rem;
+  border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background: #fff5f9;
+}
+
+button {
+  font: inherit;
+  background: #49bb26;
+  border: 1px solid #5eff00;
+  cursor: pointer;
+  color: #d6e1ff;
+  padding: 0.75rem 1rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+#user-input {
+  display: flex;
+  flex-direction: column;
+  color: #00a808;
+  text-align: center;
+  align-items: center;
+}
+
+button:hover,
+button:active {
+  background: #00a808;
+  border-color: #0e6606ab;
+}
+
+.projects {
+  margin: 1rem;
+  border: 1px solid #39be39;
+}
+
+.projects header {
+  background: #39be39;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#finished-projects {
+  border-color: #5297e6;
+}
+
+#finished-projects header {
+  background: #09fcfc;
+}
+
+.projects h2 {
+  margin: 0;
+  color: #b90606;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.projects li {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+  margin: 1rem;
+  background: #ffe3ee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projects li h2 {
+  color: #39be39;
+  margin: 0.5rem 0;
+}
+
+#finished-projects li h2 {
+  color: #1d849eb9;
+}
+
+.projects li h3 {
+  color: #42a785;
+  font-size: 1rem;
+}
+
+.project li p {
+  margin: 0;
+}
+
+.droppable {
+  background: #ffe3ee;
+}
+
+#finished-projects .droppable {
+  background: #98bedd;
+}
+
+#user-input {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #39be39;
+  background: #f7f7f7;
+}
